@@ -89,7 +89,7 @@ async function loadResearches() {
                 <p>${data.description}</p>
                 <p><strong>Conclusiones:</strong> ${data.conclusions}</p>
                 <p><strong>Recomendaciones:</strong> ${data.recommendations}</p>
-                <a href="research.html?id=${doc.id}">Ver detalles</a>
+                <a href="research.html?id=${doc.id}">Ver Detalles</a>
             `;
             researchList.appendChild(researchItem);
         });

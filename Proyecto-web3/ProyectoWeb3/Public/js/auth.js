@@ -16,6 +16,6 @@ document.getElementById("facebookLogin").addEventListener("click", () => {
     signInWithPopup(auth, provider).then((result) => {
         console.log(`Bienvenido ${result.user.displayName}`);
     }).catch((error) => {
-        console.error("Error de autenticación: ", error);
+        console.error("Error de autenticación: ", error );
     });
 });
