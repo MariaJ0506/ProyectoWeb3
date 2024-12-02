@@ -1,0 +1,25 @@
+{
+  "name": "proyectoweb3",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaJ0506/ProyectoWeb3.git#f5952663ecb1de93acb578ded815f919eea60cd0"
+  },
+  "keywords": [
+    "-"
+  ],
+  "author": "-",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaJ0506/ProyectoWeb3/issues"
+  },
+  "homepage": "https://github.com/MariaJ0506/ProyectoWeb3/tree/f5952663ecb1de93acb578ded815f919eea60cd0#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
