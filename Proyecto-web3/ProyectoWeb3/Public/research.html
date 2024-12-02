@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de la Investigación</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div id="navbar"></div>
+    </header>
+    <main>
+        <div id="researchDetails">
+            <!-- Detalles de la investigación cargados aquí -->
+        </div>
+        <h2>Comentarios</h2>
+        <div id="commentsList">
+            <!-- Lista de comentarios aquí -->
+        </div>
+        <form id="commentForm">
+            <textarea id="commentText" placeholder="Escribe un comentario..."></textarea>
+            <input type="number" id="rating" min="1" max="5" placeholder="Calificación (1-5)">
+            <button type="submit">Comentar</button>
+        </form>
+    </main>
+    <script src="js/firebase.js"></script>
+    <script src="js/data.js"></script>
+</body>
+</html>

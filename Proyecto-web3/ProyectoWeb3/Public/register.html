@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Investigador</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="register-container">
+        <h2>Registro de Investigador</h2>
+        <form id="registerForm">
+            <input type="text" id="fullName" placeholder="Nombre Completo" required>
+            <input type="email" id="email" placeholder="Correo Electrónico" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <input type="text" id="schoolGrade" placeholder="Grado Escolar" required>
+            <textarea id="description" placeholder="Descripción Personal" required></textarea>
+            <input type="file" id="photo" accept="image/*" required>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+    <script src="js/firebase.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

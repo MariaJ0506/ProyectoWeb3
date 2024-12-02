@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Investigaciones</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div id="navbar"></div>
+    </header>
+    <main>
+        <h1>Lista de Investigaciones</h1>
+        <input type="text" id="search" placeholder="Buscar investigación..." />
+        <select id="filterArea">
+            <option value="">Filtrar por Área</option>
+            <option value="Mathematics">Matemáticas</option>
+            <option value="Biology">Biología</option>
+          
+        </select>
+        <select id="filterGrade">
+            <option value="">Filtrar por Grado</option>
+            <option value="1">Grado 1</option>
+            <option value="2">Grado 2</option>
+            
+        </select>
+        <div id="researchList">
+            
+        </div>
+    </main>
+    <script src="js/firebase.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/ui.js"></script>
+</body>
+</html>
